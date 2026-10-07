@@ -6,6 +6,7 @@
 #   make demo        lance le serveur en mode démo (MOCK_LLM=1, jeton « demo »)
 #   make ios-build   génère le projet Xcode (XcodeGen) puis compile pour le simulateur
 #   make ios-test    lance les tests unitaires iOS dans le simulateur
+#   make ios-linux-check  compile + teste la logique iOS sans Mac (Docker, Swift Linux)
 
 SHELL := /bin/bash
 PY ?= python3
@@ -16,7 +17,7 @@ SIM ?= $(shell ios/scripts/pick_simulator.sh 2>/dev/null)
 XCODE_FLAGS = -project ios/DevisChat.xcodeproj -scheme DevisChat \
 	-destination 'platform=iOS Simulator,name=$(SIM)' -derivedDataPath build/DerivedData
 
-.PHONY: install test render server demo ios-gen ios-build ios-test clean
+.PHONY: install test render server demo ios-gen ios-build ios-test ios-linux-check clean
 
 install: $(VENV)/.installed
 
@@ -45,6 +46,9 @@ ios-build: ios-gen
 
 ios-test: ios-gen
 	xcodebuild $(XCODE_FLAGS) test
+
+ios-linux-check:
+	ios/scripts/linux_check.sh
 
 clean:
 	rm -rf server/out build
