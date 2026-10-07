@@ -1,0 +1,7 @@
+.env
+out/
+tests/
+scripts/
+__pycache__/
+.pytest_cache/
+data/price_history.json
