@@ -1,0 +1,72 @@
+[
+  {
+    "id": "levix",
+    "label": "LEVIX",
+    "tagline": "DESIGN & BUILD",
+    "legal_form": "SAS (exemple factice)",
+    "siret": "000 000 000 00000",
+    "naf": "0000Z",
+    "address": "1 rue de l'Exemple, 00000 Ville-Exemple",
+    "email": "contact@levix.exemple.invalid",
+    "phone": "01 00 00 00 00",
+    "insurance_text": "Assurance décennale : compagnie et numéro de contrat à compléter (exemple factice)",
+    "font": "American Typewriter",
+    "accent_color": "2E6F8E"
+  },
+  {
+    "id": "sar_bat",
+    "label": "SAR BAT",
+    "tagline": "RÉNOVATION & ENTRETIEN",
+    "legal_form": "SARL (exemple factice)",
+    "siret": "000 000 000 00000",
+    "naf": "0000Z",
+    "address": "2 avenue de l'Exemple, 00000 Ville-Exemple",
+    "email": "contact@sarbat.exemple.invalid",
+    "phone": "01 00 00 00 01",
+    "insurance_text": "Assurance décennale : compagnie et numéro de contrat à compléter (exemple factice)",
+    "font": "American Typewriter",
+    "accent_color": "2E6F8E"
+  },
+  {
+    "id": "sb_concept",
+    "label": "SB CONCEPT",
+    "tagline": "AMÉNAGEMENT INTÉRIEUR",
+    "legal_form": "SAS (exemple factice)",
+    "siret": "000 000 000 00000",
+    "naf": "0000Z",
+    "address": "3 boulevard de l'Exemple, 00000 Ville-Exemple",
+    "email": "contact@sbconcept.exemple.invalid",
+    "phone": "01 00 00 00 02",
+    "insurance_text": "Assurance décennale : compagnie et numéro de contrat à compléter (exemple factice)",
+    "font": "American Typewriter",
+    "accent_color": "2E6F8E"
+  },
+  {
+    "id": "m_bat",
+    "label": "M BAT",
+    "tagline": "BÂTIMENT TOUS CORPS D'ÉTAT",
+    "legal_form": "SARL (exemple factice)",
+    "siret": "000 000 000 00000",
+    "naf": "0000Z",
+    "address": "4 place de l'Exemple, 00000 Ville-Exemple",
+    "email": "contact@mbat.exemple.invalid",
+    "phone": "01 00 00 00 03",
+    "insurance_text": "Assurance décennale : compagnie et numéro de contrat à compléter (exemple factice)",
+    "font": "American Typewriter",
+    "accent_color": "2E6F8E"
+  },
+  {
+    "id": "id_bat",
+    "label": "ID BAT",
+    "tagline": "RAVALEMENT & ISOLATION",
+    "legal_form": "SAS (exemple factice)",
+    "siret": "000 000 000 00000",
+    "naf": "0000Z",
+    "address": "5 impasse de l'Exemple, 00000 Ville-Exemple",
+    "email": "contact@idbat.exemple.invalid",
+    "phone": "01 00 00 00 04",
+    "insurance_text": "Assurance décennale : compagnie et numéro de contrat à compléter (exemple factice)",
+    "font": "American Typewriter",
+    "accent_color": "2E6F8E"
+  }
+]

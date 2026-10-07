@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "6f1c2c9e-0000-4000-8000-000000000004",
+  "version": 2,
+  "status": "validated",
+  "company_id": "sar_bat",
+  "number": "07/26",
+  "date": "2026-10-01",
+  "client": { "name": "M. B. Exemple", "email": "client@exemple.invalid", "phone": null },
+  "site_address": "12 rue Imaginaire, 92400 Courbevoie",
+  "title": "Remplacement d'une fenêtre bois",
+  "intro": "Nous avons le plaisir de vous présenter notre devis pour le remplacement de votre fenêtre.",
+  "lots": [
+    {
+      "title": "Dépose",
+      "bullets": [
+        "Dépose soignée de la fenêtre existante",
+        "Évacuation de l'ancienne menuiserie"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Fourniture et pose",
+      "bullets": [
+        "Fenêtre bois deux vantaux, double vitrage, aux dimensions de l'existant",
+        "Pose en rénovation, calfeutrement et joints d'étanchéité",
+        "Habillage intérieur et réglages"
+      ],
+      "paragraph": null
+    }
+  ],
+  "mode": "complet",
+  "price": { "amount_ttc": 1500, "vat_rate": 10 },
+  "duration": "1 journée",
+  "start_delay": "Sous 3 semaines après validation (délai de fabrication).",
+  "validity_days": 30,
+  "nota": "Les éventuelles reprises de peinture autour de la fenêtre ne sont pas comprises.",
+  "payment_schedule": [],
+  "options": { "show_price_table": false, "show_signatures": true, "cover_photo": false },
+  "missing": []
+}

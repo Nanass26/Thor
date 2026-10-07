@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "6f1c2c9e-0000-4000-8000-000000000006",
+  "version": 1,
+  "status": "draft",
+  "company_id": "id_bat",
+  "number": null,
+  "date": "2026-10-07",
+  "client": { "name": null, "email": null, "phone": null },
+  "site_address": null,
+  "title": "Ravalement d'une façade de maison individuelle",
+  "intro": "Nous avons le plaisir de vous présenter notre devis pour le ravalement de votre façade.",
+  "lots": [
+    {
+      "title": "Installation de chantier",
+      "bullets": [
+        "Montage et démontage d'un échafaudage de pied",
+        "Protection des abords et des menuiseries"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Traitement de la façade",
+      "bullets": [
+        "Nettoyage haute pression et traitement anti-mousse",
+        "Reprise des fissures",
+        "Application d'un revêtement d'imperméabilité en deux couches"
+      ],
+      "paragraph": null
+    }
+  ],
+  "mode": "complet",
+  "price": { "amount_ttc": null, "vat_rate": 10 },
+  "duration": "2 semaines",
+  "start_delay": null,
+  "validity_days": 30,
+  "nota": null,
+  "payment_schedule": [],
+  "options": { "show_price_table": false, "show_signatures": false, "cover_photo": false },
+  "missing": ["Nom du client", "Adresse du chantier", "Prix"]
+}

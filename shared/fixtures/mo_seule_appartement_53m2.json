@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "6f1c2c9e-0000-4000-8000-000000000001",
+  "version": 1,
+  "status": "draft",
+  "company_id": "levix",
+  "number": null,
+  "date": "2026-10-07",
+  "client": { "name": null, "email": null, "phone": null },
+  "site_address": null,
+  "title": "Rénovation d'un appartement de 53 m²",
+  "intro": "Nous avons le plaisir de vous présenter notre devis pour la rénovation de votre appartement.",
+  "lots": [
+    {
+      "title": "Protection et préparation",
+      "bullets": [
+        "Protection des sols et des menuiseries",
+        "Dépose des plinthes et des éléments à remplacer",
+        "Évacuation des gravats en déchetterie"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Peinture",
+      "bullets": [
+        "Préparation des supports (rebouchage, ponçage)",
+        "Application de deux couches de peinture sur murs et plafonds"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Sols",
+      "bullets": [
+        "Ragréage des zones abîmées",
+        "Pose de parquet stratifié clipsé avec sous-couche",
+        "Pose de plinthes assorties"
+      ],
+      "paragraph": null
+    }
+  ],
+  "mode": "main_oeuvre_seule",
+  "price": { "amount_ttc": 3000, "vat_rate": 10 },
+  "duration": "3 semaines",
+  "start_delay": "Intervention possible dès validation du devis et accord du propriétaire.",
+  "validity_days": 30,
+  "nota": null,
+  "payment_schedule": [],
+  "options": { "show_price_table": false, "show_signatures": false, "cover_photo": false },
+  "missing": ["Nom du client", "Adresse du chantier"]
+}

@@ -1,0 +1,14 @@
+[
+  {"id": "h01", "trade": "électricité + cuisine complète", "surface_m2": 80, "mode": "complet", "ttc": 3700, "vat_rate": null, "duration": null},
+  {"id": "h02", "trade": "aménagement de local commercial, 6 lots (chambre froide, ravalement…)", "surface_m2": null, "mode": "complet", "ttc": 22000, "vat_rate": null, "duration": "6 semaines"},
+  {"id": "h03", "trade": "véranda", "surface_m2": null, "mode": "complet", "ttc": 33110, "vat_rate": null, "duration": null},
+  {"id": "h04", "trade": "ravalement + isolation thermique par l'extérieur", "surface_m2": null, "mode": "complet", "ttc": 18000, "vat_rate": null, "duration": null},
+  {"id": "h05", "trade": "chape / fondation", "surface_m2": 30, "mode": "complet", "ttc": 8500, "vat_rate": 10, "duration": null},
+  {"id": "h06", "trade": "peinture appartement", "surface_m2": null, "mode": "complet", "ttc": 4500, "vat_rate": null, "duration": null},
+  {"id": "h07", "trade": "rénovation", "surface_m2": null, "mode": "complet", "ttc": 6500, "vat_rate": 20, "duration": null},
+  {"id": "h08", "trade": "rénovation d'appartement", "surface_m2": 53, "mode": "main_oeuvre_seule", "ttc": 3000, "vat_rate": 10, "duration": "3 semaines"},
+  {"id": "h09", "trade": "fenêtre bois", "surface_m2": null, "mode": "complet", "ttc": 1500, "vat_rate": null, "duration": null},
+  {"id": "h10", "trade": "magasin d'optique", "surface_m2": 55, "mode": "complet", "ttc": 6500, "vat_rate": null, "duration": null},
+  {"id": "h11", "trade": "magasin d'optique", "surface_m2": 55, "mode": "main_oeuvre_seule", "ttc": 3500, "vat_rate": null, "duration": null},
+  {"id": "h12", "trade": "faux plafond, suspentes 60×60", "surface_m2": null, "mode": "main_oeuvre_seule", "ttc": 5000, "vat_rate": null, "duration": null}
+]

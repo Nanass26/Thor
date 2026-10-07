@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "6f1c2c9e-0000-4000-8000-000000000005",
+  "version": 1,
+  "status": "draft",
+  "company_id": "m_bat",
+  "number": null,
+  "date": "2026-10-05",
+  "client": { "name": "Mme C. Exemple", "email": null, "phone": null },
+  "site_address": "3 allée Fictive, 92000 Nanterre",
+  "title": "Peinture d'un appartement",
+  "intro": "Nous avons le plaisir de vous présenter notre devis pour la peinture de votre appartement.",
+  "lots": [
+    {
+      "title": "Préparation",
+      "bullets": [
+        "Protection des sols et du mobilier",
+        "Rebouchage des fissures et des trous, ponçage",
+        "Lessivage des boiseries"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Peinture",
+      "bullets": [
+        "Murs : deux couches de peinture acrylique velours",
+        "Plafonds : deux couches de peinture mate",
+        "Boiseries et portes : laque satinée"
+      ],
+      "paragraph": null
+    }
+  ],
+  "mode": "complet",
+  "price": { "amount_ttc": 4500, "vat_rate": 10 },
+  "duration": null,
+  "start_delay": null,
+  "validity_days": 30,
+  "nota": null,
+  "payment_schedule": [
+    { "label": "Acompte à la signature", "amount_ttc": 2500, "percent": null },
+    { "label": "Solde à la fin des travaux", "amount_ttc": 2000, "percent": null }
+  ],
+  "options": { "show_price_table": true, "show_signatures": false, "cover_photo": false },
+  "missing": ["Durée des travaux"]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "6f1c2c9e-0000-4000-8000-000000000003",
+  "version": 1,
+  "status": "draft",
+  "company_id": "sb_concept",
+  "number": "19/26",
+  "date": "2026-09-14",
+  "client": {
+    "name": "Optique Exemple (client fictif)",
+    "email": null,
+    "phone": null
+  },
+  "site_address": "8 avenue Imaginaire, 92400 Courbevoie",
+  "title": "Aménagement d'un magasin d'optique de 55 m² — main-d'œuvre seule",
+  "intro": "Nous avons le plaisir de vous présenter notre devis pour l'aménagement de votre magasin.",
+  "lots": [
+    {
+      "title": "Cloisons et faux plafond",
+      "bullets": [
+        "Création d'une cloison en plaques de plâtre sur ossature métallique",
+        "Faux plafond en dalles 60×60 sur ossature apparente",
+        "Bandes et enduits de finition"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Électricité et éclairage",
+      "bullets": [
+        "Reprise du tableau électrique et des circuits du local",
+        "Pose de spots LED encastrés (fournis par le client)",
+        "Prises et éclairage des vitrines"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Peinture et sols",
+      "bullets": [
+        "Peinture des murs et plafonds, deux couches",
+        "Pose du revêtement de sol PVC fourni par le client"
+      ],
+      "paragraph": null
+    },
+    {
+      "title": "Agencement",
+      "paragraph": "Pose des meubles de présentation fournis par le client et réalisation d'un comptoir d'accueil en panneaux mélaminés.",
+      "bullets": null
+    }
+  ],
+  "mode": "main_oeuvre_seule",
+  "price": {
+    "amount_ttc": 3500,
+    "vat_rate": 20
+  },
+  "duration": null,
+  "start_delay": "À convenir selon la date de livraison du local.",
+  "validity_days": 30,
+  "nota": null,
+  "payment_schedule": [],
+  "options": {
+    "show_price_table": false,
+    "show_signatures": true,
+    "cover_photo": false
+  },
+  "missing": [
+    "Durée des travaux"
+  ]
+}
