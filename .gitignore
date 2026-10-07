@@ -1,0 +1,26 @@
+# Secrets et données privées (jamais dans git)
+.env
+server/.env
+server/data/companies.json
+server/data/price_history.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+server/out/
+
+# Xcode / iOS
+ios/DevisChat.xcodeproj/
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+.build/
+.swiftpm/
+
+# Divers
+.DS_Store
+*.log
