@@ -17,4 +17,4 @@ fi
 PORT="${PORT:-8000}"
 echo "Serveur DevisChat sur http://0.0.0.0:${PORT}  (Ctrl+C pour arrêter)"
 # --no-access-log : notre propre journal (sans contenu de message) suffit.
-exec "$PYTHON" -m uvicorn app.main:app --host 0.0.0.0 --port "$PORT" --no-access-log
+exec "$PYTHON" -m uvicorn app.main:build --factory --host 0.0.0.0 --port "$PORT" --no-access-log
